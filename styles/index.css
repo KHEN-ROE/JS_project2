@@ -46,11 +46,11 @@ main {
 } 
 .txtWrap {
   position: absolute;
-  z-index: 10;
+  z-index: 10;/*그림이 포개어짐*/
   display: flex;
   justify-content: center;
   align-items: center; 
-  display : none ;
+  display : none ;/*마우스 올라가면 생기도록 만들것*/
 }
 #imgViewText {
   width : 50% ;
@@ -85,7 +85,7 @@ main {
 }
 
 #imgIcon > img:hover, #imgIcon > img:active {
-  opacity: 100%;
+  opacity: 100%;/*마우스 올라가면 투명도 100퍼*/
 }
 
 
